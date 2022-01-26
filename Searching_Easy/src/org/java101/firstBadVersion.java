@@ -14,11 +14,12 @@ public class firstBadVersion {
             int mid = start + (end - start) / 2;
 
             // If mid is a badversion
-            if (isBadVersion(mid)) {
-                end = mid;
-            } else {
-                start = mid + 1;
-            }
+            // Uncomment below block of code
+//            if (isBadVersion(mid)) {
+//                end = mid;
+//            } else {
+//                start = mid + 1;
+//            }
         }
         return end;
     }
